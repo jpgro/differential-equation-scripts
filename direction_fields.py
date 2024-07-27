@@ -1,8 +1,8 @@
-import numpy as np 
-import matplotlib.pyplot as plt 
-n = 1
-x = np.arange(-10, 10, n)
-y = np.arange(-10, 10, n)
+import numpy as np
+import matplotlib.pyplot as plt
+N = 1
+x = np.arange(-10, 10, N)
+y = np.arange(-10, 10, N)
 #Rectangular grid with points
 X, Y = np.meshgrid(x, y)
 
